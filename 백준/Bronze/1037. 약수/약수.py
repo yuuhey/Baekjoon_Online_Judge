@@ -1,4 +1,3 @@
-input()
-li = list(map(int, input().split()))
-li.sort()
-print(li[-1]*li[0])
+*a, = map(int, [*open(0)][1].split())
+a.sort()
+print(a[-1]*a[0])
